@@ -32,7 +32,9 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]);
 
     // Key element to search
-    int key = 23;
+    int key ;
+    printf("enter key element to be searched:");
+    scanf("%d",&key);
 
     // Perform binary search
     int result = binarySearch(arr, size, key);
