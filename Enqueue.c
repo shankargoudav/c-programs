@@ -39,7 +39,7 @@ void enqueue(Queue *q, int value) {
     }
 }
 
-int main() {
+void main() {
     Queue q;
     initQueue(&q);
 
@@ -49,5 +49,4 @@ int main() {
     enqueue(&q, 30);
     enqueue(&q, 40);
 
-    return 0;
 }
