@@ -26,7 +26,7 @@ int binarySearch(int arr[], int size, int key) {
     return -1;
 }
 
-int main() {
+void main() {
     // Example sorted array
     int arr[] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
     int size = sizeof(arr) / sizeof(arr[0]);
@@ -44,5 +44,5 @@ int main() {
     else
         printf("Element %d not found\n", key);
 
-    return 0;
+    
 }
