@@ -14,7 +14,7 @@ bool isPrime(int num) {
     return true;
 }
 
-int main() {
+void main() {
     int start, end;
 
     // Taking input from the user
@@ -41,5 +41,4 @@ int main() {
 
     printf("\n");
 
-    return 0;
 }
