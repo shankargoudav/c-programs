@@ -26,7 +26,7 @@ int binarySearch(int arr[], int size, int key) {
     return -1;
 }
 // dsgtfvjjlk
-
+// grfsdfasdda
 void main() {
     // Example sorted array
     int arr[] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
